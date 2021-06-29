@@ -1,0 +1,54 @@
+.favourite {
+  display: grid;
+  grid-template-areas: 
+  "left-favourite middle-favourite right-favourite";
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-evenly;
+  /* flex-wrap: wrap; */
+}
+
+.favourite-bg-1 {
+    background-image: url(../img/favourites/indonesia.png);
+    grid-area: left-favourite;
+    margin: 10%;
+    background-repeat: no-repeat;
+    
+  }
+  
+.favourite-bg-2 {
+    background-image: url(../img/favourites/australia.png);
+    grid-area: middle-favourite;
+    margin: 10%;
+    background-size: auto;
+    
+  }
+  
+.favourite-bg-3 {
+    background-image: url(../img/favourites/switzerland.png);
+    grid-area: right-favourite;
+    margin: 10%;
+    background-size: auto;
+  
+  }
+
+.country-name{
+  font-family: "Cedarville Cursive",Arial,sans-serif;
+  color: white;
+  font-size: 3vw;
+  margin: 10%;
+  padding: 5px;
+}
+
+.country-desc {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 1.5vw;
+  margin: 10%;
+}
+
+.country-explore {
+  background-color:hotpink;
+  color:white;
+  margin: 10%;
+  font-size: 1.5vw;
+}

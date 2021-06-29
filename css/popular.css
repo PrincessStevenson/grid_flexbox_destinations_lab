@@ -1,0 +1,53 @@
+.popular{
+    display: grid;
+    grid-template-areas: 
+    "header         header           header"
+    "sub-header     sub-header       sub-header"
+    "country-Italy  country-Brazil   country-America"
+    "country-Nepal  country-Maldives country-Indonesia";
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 2fr 2fr 3fr 3fr; */
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */}
+    
+body > main > section > h2 {
+    font-size: 3vh;
+    font-family: fantasy;
+    grid-area: header;
+}
+
+body > main > section > p{
+    font-size: 2vh;
+    font-family: fantasy;
+    grid-area: sub-header;
+}
+
+.popular-bg-1 {
+    background-image: url(../img/destination/italy.png);
+    grid-area: country-Italy;
+}
+
+.popular-bg-2 {
+    background-image: url(../img/destination/brazil.png);
+    grid-area: country-Brazil;
+}
+
+.popular-bg-3 {
+    background-image: url(../img/destination/america.png);
+    grid-area: country-America;
+}
+
+.popular-bg-4 {
+    background-image: url(../img/destination/nepal.png);
+    grid-area: country-Nepal;
+}
+
+.popular-bg-5 {
+    background-image: url(../img/favourites/maldives.png);
+    grid-area: country-Maldives;
+}
+
+.popular-bg-6 {
+    background-image: url(../img/destination/indonesia.png);
+    grid-area: country-Indonesia;
+}
